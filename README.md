@@ -20,8 +20,10 @@ Include the relevant imports, then connect to the database located at `data.sqli
 
 
 ```python
-# Your code here
-```
+import sqlite3
+import pandas as pd
+
+conn = sqlite3.connect('data.sqlite')```
 
 ## Employees and Their Offices (a One-to-One Join)
 
